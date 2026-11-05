@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140" width="100%" height="100%">
+  <!-- Background Paper -->
+  <rect width="320" height="140" fill="#FAF9F6"/>
+  <!-- Horizon Line -->
+  <line x1="0" y1="120" x2="320" y2="120" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- IIT Delhi Iconic Senate Building Architectural Elevation -->
+  <!-- Main Canopy Structure -->
+  <polygon points="40,118 70,60 250,60 280,118" fill="#F4F3EF" stroke="#121212" stroke-width="2"/>
+  <line x1="70" y1="60" x2="250" y2="60" stroke="#121212" stroke-width="2.5"/>
+  <line x1="60" y1="80" x2="260" y2="80" stroke="#121212" stroke-width="1"/>
+  <line x1="50" y1="100" x2="270" y2="100" stroke="#121212" stroke-width="1"/>
+
+  <!-- Iconic Roof Arch / Hyperbolic Paraboloid Roof Profile -->
+  <path d="M50,60 Q160,28 270,60" fill="none" stroke="#121212" stroke-width="3"/>
+  <path d="M70,55 Q160,36 250,55" fill="none" stroke="#121212" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+  <!-- Vertical Brise-Soleil / Columns -->
+  <g stroke="#121212" stroke-width="1.5">
+    <line x1="90" y1="60" x2="80" y2="118"/>
+    <line x1="110" y1="60" x2="104" y2="118"/>
+    <line x1="130" y1="60" x2="128" y2="118"/>
+    <line x1="150" y1="60" x2="150" y2="118"/>
+    <line x1="170" y1="60" x2="170" y2="118"/>
+    <line x1="190" y1="60" x2="192" y2="118"/>
+    <line x1="210" y1="60" x2="216" y2="118"/>
+    <line x1="230" y1="60" x2="240" y2="118"/>
+  </g>
+
+  <!-- Central Entryway & Steps -->
+  <rect x="135" y="95" width="50" height="23" fill="#121212"/>
+  <line x1="115" y1="119" x2="205" y2="119" stroke="#121212" stroke-width="2"/>
+  <line x1="120" y1="121" x2="200" y2="121" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- Architectural Label -->
+  <rect x="10" y="10" width="130" height="18" rx="2" fill="#FFFFFF" stroke="#121212" stroke-width="1.2"/>
+  <text x="16" y="23" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="800" fill="#121212">IIT DELHI // SENATE</text>
+  
+  <!-- Subtle Blueprint Coordinates -->
+  <text x="310" y="22" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#7E7C75" text-anchor="end">28.5450° N, 77.1926° E</text>
+</svg>

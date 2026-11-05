@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scorecard & Percentile Normalization // JEE (Main) 2026 // National Examination Portal</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="concept-disclaimer-topbar">Concept redesign, not the official website</div>
+
+  <!-- Hairline Indian Tricolor Accent -->
+  <div class="india-tricolor-bar">
+    <div class="tri-saffron"></div>
+    <div class="tri-white"></div>
+    <div class="tri-green"></div>
+  </div>
+
+  <!-- Custom Interactive Cursor (Desktop) -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- Urgent Live Marquee Ticker (Top of Screen) -->
+  <div class="top-ticker-ribbon">
+    <div class="ticker-track">
+      <span>&#9733; <strong>JEE (MAIN) 2026 CONCEPT REDESIGN</strong></span>
+      <span>&#9679;</span>
+      <span>SESSION 1 ADVANCE CITY ALLOTMENT LIVE</span>
+      <span>&#9679;</span>
+      <span>STRICT GATE CLOSURE: SHIFT 1 AT 08:30 AM | SHIFT 2 AT 02:30 PM</span>
+      <span>&#9679;</span>
+      <span>INDEPENDENT DESIGN CONCEPT • DEMO</span>
+      <span>&#9679;</span>
+      <span>1,415,820 REGISTERED ASPIRANTS NATIONWIDE</span>
+      <span>&#9679;</span>
+      <span>312 INDIAN & INTERNATIONAL TEST CENTERS</span>
+      <span>&#9679;</span>
+      <span>EXAMINATION HELPLINE: 011-40759000 // 011-69227700</span>
+      <span>&#9733; <strong>JEE (MAIN) 2026 CONCEPT REDESIGN</strong></span>
+      <span>&#9679;</span>
+      <span>SESSION 1 ADVANCE CITY ALLOTMENT LIVE</span>
+      <span>&#9679;</span>
+      <span>STRICT GATE CLOSURE: SHIFT 1 AT 08:30 AM | SHIFT 2 AT 02:30 PM</span>
+      <span>&#9679;</span>
+      <span>INDEPENDENT DESIGN CONCEPT • DEMO</span>
+      <span>&#9679;</span>
+      <span>1,415,820 REGISTERED ASPIRANTS NATIONWIDE</span>
+      <span>&#9679;</span>
+      <span>312 INDIAN & INTERNATIONAL TEST CENTERS</span>
+      <span>&#9679;</span>
+      <span>EXAMINATION HELPLINE: 011-40759000 // 011-69227700</span>
+    </div>
+  </div>
+
+  <!-- Unified Luxury Institutional Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="./index.html" class="header-brand">
+        <div class="header-brand-logo concept-logo-placeholder">Concept</div>
+        <div class="header-brand-text">
+          <span class="header-brand-tag">CONCEPT ARCHITECTURE // DEMO</span>
+          <span class="header-brand-title" id="txt-logo-title">JEE (MAIN) 2026</span>
+        </div>
+      </a>
+
+      <nav class="header-nav-dock">
+        <a href="./index.html" class="" id="nav-home">Home</a>
+        <a href="./city-allotment.html" class="" id="nav-actions">City Allotment</a>
+        <a href="./city-directory.html" class="" id="nav-tools">300+ Exam Cities</a>
+        <a href="./scorecard.html" class="active" id="nav-scorecard">Score & Keys</a>
+        <a href="./public-notices.html" class="" id="nav-notices">Public Notices</a>
+        <a href="./helpdesk.html" class="" id="nav-helpdesk">IIT Helpdesk</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="lang-toggle" class="header-btn" title="Toggle Language">&#2361;&#2367;&#2344;&#2381;&#2342;&#2368;</button>
+        <button id="sound-toggle" class="header-btn" title="Toggle Audio Ambience">&#9835; SOUND</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Body -->
+  <div class="content-wrapper" style="padding-top: 40px;">
+    <div class="container" style="max-width: 1100px;">
+
+      <div class="section-title-wrap">
+        <div>
+          <h2 class="section-headline">Scorecard & Percentile Normalization</h2>
+          <p class="section-subline">Multi-Shift Normalization Engine & Provisional Answer Key Verification</p>
+        </div>
+        <span class="status-tag active">ALGORITHM 2026 ACTIVE</span>
+      </div>
+
+      <!-- Calculator Section -->
+      <div class="tools-grid" style="margin-bottom: 50px;">
+        <div class="tool-card">
+          <div>
+            <div class="tool-header-row">
+              <h4 class="tool-title">Total Marks Calculator</h4>
+              <span class="status-tag active">DEMO ONLY</span>
+            </div>
+            <p class="tool-sub">
+              Enter your raw marks (out of 100 per subject) to calculate your composite score.
+            </p>
+
+            <div class="score-fields-trio">
+              <div class="score-box-input">
+                <label>Physics (Max 100)</label>
+                <input type="number" id="p-score" min="0" max="100" value="74" class="search-input-clean">
+              </div>
+              <div class="score-box-input">
+                <label>Chemistry (Max 100)</label>
+                <input type="number" id="c-score" min="0" max="100" value="82" class="search-input-clean">
+              </div>
+              <div class="score-box-input">
+                <label>Maths (Max 100)</label>
+                <input type="number" id="m-score" min="0" max="100" value="68" class="search-input-clean">
+              </div>
+            </div>
+
+            <div class="score-result-badge">
+              <div>
+                <span class="metric-name">Composite Raw Score</span>
+                <div class="metric-val" id="total-raw-val">224 / 300</div>
+              </div>
+              <div style="text-align: right;">
+                <span class="metric-name">Calculation Mode</span>
+                <div class="metric-val" style="color: var(--ink-charcoal); font-size: 16px;">Sum (P + C + M)</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="background: #FAF9F6; border: 1px dashed rgba(18,18,18,0.25); border-radius: 8px; padding: 14px; font-family: var(--font-mono); font-size: 11px; color: var(--ink-light); text-align: center;">
+            Demo calculator, not a real prediction.
+          </div>
+          </div>
+        </div>
+
+        <!-- Normalization Formula Explanation -->
+        <div class="tool-card">
+          <div>
+            <div class="tool-header-row">
+              <h4 class="tool-title">Multi-Shift Normalization Formula</h4>
+              <span class="status-tag">PROCEDURE</span>
+            </div>
+            <p class="tool-sub">
+              To ensure fairness across different shifts with varying difficulty levels, NTA uses the globally standard Percentile calculation:
+            </p>
+
+            <div style="background: #EFECE6; border: 1.5px solid #121212; border-radius: 8px; padding: 18px; margin-bottom: 16px; font-family: var(--font-mono); font-size: 12px; line-height: 1.6;">
+              <strong>Percentile Score (P) =</strong><br>
+              <div style="border-bottom: 1.5px solid #121212; padding: 6px 0; margin-bottom: 6px; font-weight: 800;">
+                100 &times; (No. of candidates in the session with raw score &le; Candidate's score)
+              </div>
+              <div>
+                Total number of candidates who appeared in that session
+              </div>
+            </div>
+
+            <p style="font-size: 13px; color: var(--ink-charcoal); line-height: 1.5;">
+              Percentile scores are calculated up to 7 decimal places (e.g. 99.8419204) to avoid ties and eliminate bunching effects across 1.41 million candidates.
+            </p>
+          </div>
+
+          <div style="font-family: var(--font-mono); font-size: 11px; color: var(--ink-light);">
+            Reference: National Normalization Framework Guidelines
+          </div>
+        </div>
+      </div>
+
+      <!-- Cutoff Benchmarks Table -->
+      <div class="section-title-wrap">
+        <div>
+          <h3 class="section-headline">Category-Wise Cutoff History (JEE Advanced)</h3>
+          <p class="section-subline">Benchmark minimum qualifying percentiles for IIT eligibility</p>
+        </div>
+      </div>
+
+      <div class="notices-table-clean" style="margin-bottom: 60px;">
+        <table class="slip-table" style="margin-bottom: 0;">
+          <thead>
+            <tr style="background: #EFECE6;">
+              <th style="padding: 12px 16px; font-size: 13px;">CATEGORY</th>
+              <th style="padding: 12px 16px; font-size: 13px;">HISTORICAL CUTOFF BENCHMARK</th>
+              <th style="padding: 12px 16px; font-size: 13px;">ESTIMATED CUTOFF (2026)</th>
+              <th style="padding: 12px 16px; font-size: 13px;">QUALIFYING POOL</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>General (UR - Common Merit)</strong></td>
+              <td style="font-family: var(--font-mono); font-weight: 800;">93.2362181</td>
+              <td style="font-family: var(--font-mono); font-weight: 900; color: #0E7036;">93.50 &plusmn; 0.20</td>
+              <td>Top 96,187 Candidates</td>
+            </tr>
+            <tr>
+              <td><strong>General - Economically Weaker Section (GEN-EWS)</strong></td>
+              <td style="font-family: var(--font-mono); font-weight: 800;">81.3266412</td>
+              <td style="font-family: var(--font-mono); font-weight: 900; color: #0E7036;">81.80 &plusmn; 0.30</td>
+              <td>Top 25,000 Candidates</td>
+            </tr>
+            <tr>
+              <td><strong>Other Backward Classes (OBC-NCL)</strong></td>
+              <td style="font-family: var(--font-mono); font-weight: 800;">79.2572635</td>
+              <td style="font-family: var(--font-mono); font-weight: 900; color: #0E7036;">79.60 &plusmn; 0.25</td>
+              <td>Top 67,500 Candidates</td>
+            </tr>
+            <tr>
+              <td><strong>Scheduled Castes (SC)</strong></td>
+              <td style="font-family: var(--font-mono); font-weight: 800;">60.0928281</td>
+              <td style="font-family: var(--font-mono); font-weight: 900; color: #0E7036;">60.50 &plusmn; 0.40</td>
+              <td>Top 37,500 Candidates</td>
+            </tr>
+            <tr>
+              <td><strong>Scheduled Tribes (ST)</strong></td>
+              <td style="font-family: var(--font-mono); font-weight: 800;">46.6975840</td>
+              <td style="font-family: var(--font-mono); font-weight: 900; color: #0E7036;">47.10 &plusmn; 0.50</td>
+              <td>Top 18,750 Candidates</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+
+      <!-- Modern Liquid Glass Institutional Footer -->
+    <!-- Modern Liquid Glass Institutional Footer -->
+    <!-- Perfected Modern Liquid Glass Footer -->
+  <footer class="gov-footer">
+    <div class="footer-tricolor-accent">
+      <div class="tri-saffron"></div>
+      <div class="tri-white"></div>
+      <div class="tri-green"></div>
+    </div>
+    <div class="footer-glass-inner">
+      <div class="footer-top-grid">
+        <div class="footer-brand-liquid">
+          <div class="brand-row">
+            <div class="footer-logo-placeholder">Concept</div>
+            <div>
+              <div class="brand-tagline">INDEPENDENT CONCEPT REDESIGN</div>
+              <h3>JEE (MAIN) 2026</h3>
+            </div>
+          </div>
+          <p>
+            The Joint Entrance Examination (Main) is conducted by the National Testing Agency for transparent undergraduate engineering admissions across NITs, IIITs, CFTIs, and as eligibility for JEE (Advanced).
+          </p>
+          <div class="footer-badges-strip">
+            <span class="badge-chip-green">&#9679; 256-Bit NIC Cloud Grid</span>
+            <span class="badge-chip-blue">&#128274; SSO Demo</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">CANDIDATE SERVICES</div>
+          <ul class="footer-links-list">
+            <li><a href="./city-allotment.html">Advance City Allotment &rarr;</a></li>
+            <li><a href="./city-directory.html">300+ Exam Cities &rarr;</a></li>
+            <li><a href="./scorecard.html">Scorecard & Answer Keys &rarr;</a></li>
+            <li><a href="./public-notices.html">Bulletins & Archive &rarr;</a></li>
+            <li><a href="./helpdesk.html">IIT Zonal Helpdesk &rarr;</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">NATIONAL NODES</div>
+          <ul class="footer-links-list">
+            <li><a href="https://www.education.gov.in/" target="_blank" rel="noopener">Ministry of Education &rarr;</a></li>
+            <li><a href="https://nta.ac.in/" target="_blank" rel="noopener">National Testing Agency &rarr;</a></li>
+            <li><a href="https://jeeadv.ac.in/" target="_blank" rel="noopener">JEE (Advanced) 2026 &rarr;</a></li>
+            <li><a href="https://josaa.nic.in/" target="_blank" rel="noopener">JoSAA Seat Allocation &rarr;</a></li>
+            <li><a href="https://digilocker.gov.in/" target="_blank" rel="noopener">External: DigiLocker &rarr;</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">EXAMINATION HELPLINE DESK</div>
+          <div class="footer-helpline-card">
+            <div><strong>Toll-Free Helpline:</strong> 011-40759000</div>
+            <div><strong>Alternate Helpline:</strong> 011-69227700</div>
+            <div><strong>Inquiries Email:</strong> jeemain@nta.ac.in</div>
+            <div style="margin-top: 6px; color: var(--ink-light); font-size: 10px;">First Floor, NSIC-MDBP Building, Okhla Industrial Estate, Phase III, New Delhi - 110020</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>
+          <span>Concept redesign mockup. Not affiliated with any official agency.</span>
+          <span>&bull;</span>
+          <span>Bilingual Examination Architecture</span>
+        </div>
+        <div>
+          <span>Engineered for 1.41 Million Indian Aspirants</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const pIn = document.getElementById('p-score');
+    const cIn = document.getElementById('c-score');
+    const mIn = document.getElementById('m-score');
+    const totalEl = document.getElementById('total-raw-val');
+
+    function calc() {
+      const p = Math.max(0, Math.min(100, parseInt(pIn.value) || 0));
+      const c = Math.max(0, Math.min(100, parseInt(cIn.value) || 0));
+      const m = Math.max(0, Math.min(100, parseInt(mIn.value) || 0));
+      const total = p + c + m;
+      totalEl.textContent = `${total} / 300`;
+    }
+
+    [pIn, cIn, mIn].forEach(i => i.addEventListener('input', calc));
+  </script>
+
+  
+
+</body>
+</html>

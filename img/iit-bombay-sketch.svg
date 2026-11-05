@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140" width="100%" height="100%">
+  <!-- Background Paper -->
+  <rect width="320" height="140" fill="#FAF9F6"/>
+  <!-- Horizon Line -->
+  <line x1="0" y1="120" x2="320" y2="120" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- IIT Bombay Iconic Main Building with Colonnade Arches & Clock Tower -->
+  <!-- Main Colonnade Base Block -->
+  <rect x="30" y="68" width="260" height="52" fill="#F4F3EF" stroke="#121212" stroke-width="2"/>
+  
+  <!-- Cornice & Dentils -->
+  <line x1="26" y1="68" x2="294" y2="68" stroke="#121212" stroke-width="2.5"/>
+  <line x1="26" y1="72" x2="294" y2="72" stroke="#121212" stroke-width="1"/>
+
+  <!-- Colonnade Arches -->
+  <g stroke="#121212" stroke-width="1.8" fill="#121212">
+    <!-- Arch 1 -->
+    <path d="M48,118 V92 A12,12 0 0,1 72,92 V118 Z"/>
+    <!-- Arch 2 -->
+    <path d="M82,118 V92 A12,12 0 0,1 106,92 V118 Z"/>
+    <!-- Arch 3 (Center West) -->
+    <path d="M116,118 V92 A12,12 0 0,1 140,92 V118 Z"/>
+    <!-- Center Grand Arch -->
+    <path d="M148,118 V84 A16,16 0 0,1 180,84 V118 Z" fill="#2A2A28"/>
+    <!-- Arch 4 (Center East) -->
+    <path d="M188,118 V92 A12,12 0 0,1 212,92 V118 Z"/>
+    <!-- Arch 5 -->
+    <path d="M222,118 V92 A12,12 0 0,1 246,92 V118 Z"/>
+    <!-- Arch 6 -->
+    <path d="M256,118 V92 A12,12 0 0,1 280,92 V118 Z"/>
+  </g>
+
+  <!-- Central Clock Tower Structure -->
+  <rect x="142" y="32" width="44" height="36" fill="#FAF9F6" stroke="#121212" stroke-width="2"/>
+  <!-- Slanted Roof Pediment -->
+  <polygon points="138,32 164,12 190,32" fill="#F4F3EF" stroke="#121212" stroke-width="2"/>
+  <!-- Clock Circle -->
+  <circle cx="164" cy="48" r="8" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/>
+  <line x1="164" y1="48" x2="164" y2="44" stroke="#121212" stroke-width="1.5"/>
+  <line x1="164" y1="48" x2="168" y2="48" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- Stepped Entrance -->
+  <line x1="130" y1="120" x2="198" y2="120" stroke="#121212" stroke-width="2"/>
+  <line x1="136" y1="122" x2="192" y2="122" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- Architectural Label -->
+  <rect x="10" y="10" width="134" height="18" rx="2" fill="#FFFFFF" stroke="#121212" stroke-width="1.2"/>
+  <text x="16" y="23" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="800" fill="#121212">IIT BOMBAY // POWAI</text>
+
+  <!-- Coordinates -->
+  <text x="310" y="22" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#7E7C75" text-anchor="end">19.1334° N, 72.9133° E</text>
+</svg>

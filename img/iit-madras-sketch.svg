@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140" width="100%" height="100%">
+  <!-- Background Paper -->
+  <rect width="320" height="140" fill="#FAF9F6"/>
+  <!-- Horizon Line -->
+  <line x1="0" y1="120" x2="320" y2="120" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- IIT Madras Iconic Administration Building & Gajendra Circle -->
+  <!-- Main Heritage Facade -->
+  <rect x="40" y="60" width="240" height="60" fill="#F4F3EF" stroke="#121212" stroke-width="2"/>
+  
+  <!-- Symmetrical Classical Pillars / Portico -->
+  <rect x="110" y="52" width="100" height="68" fill="#FFFFFF" stroke="#121212" stroke-width="2.5"/>
+  <polygon points="104,52 160,26 216,52" fill="#FAF9F6" stroke="#121212" stroke-width="2.5"/>
+
+  <!-- Triangular Pediment Relief Detail -->
+  <circle cx="160" cy="42" r="5" fill="#121212"/>
+
+  <!-- Columns Supporting Portico -->
+  <g stroke="#121212" stroke-width="2">
+    <line x1="124" y1="52" x2="124" y2="120"/>
+    <line x1="148" y1="52" x2="148" y2="120"/>
+    <line x1="172" y1="52" x2="172" y2="120"/>
+    <line x1="196" y1="52" x2="196" y2="120"/>
+  </g>
+
+  <!-- Side Windows -->
+  <g stroke="#121212" stroke-width="1.5" fill="#121212">
+    <rect x="55" y="75" width="16" height="24" rx="1"/>
+    <rect x="80" y="75" width="16" height="24" rx="1"/>
+    <rect x="224" y="75" width="16" height="24" rx="1"/>
+    <rect x="249" y="75" width="16" height="24" rx="1"/>
+  </g>
+
+  <!-- Trees / Deer Park Flora Silhouette on Sides -->
+  <path d="M15,120 Q22,80 30,120 Q35,70 42,120" fill="none" stroke="#121212" stroke-width="1.5"/>
+  <path d="M280,120 Q288,75 296,120 Q302,82 308,120" fill="none" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- Architectural Label -->
+  <rect x="10" y="10" width="146" height="18" rx="2" fill="#FFFFFF" stroke="#121212" stroke-width="1.2"/>
+  <text x="16" y="23" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="800" fill="#121212">IIT MADRAS // GAJENDRA</text>
+
+  <!-- Coordinates -->
+  <text x="310" y="22" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#7E7C75" text-anchor="end">12.9915° N, 80.2337° E</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 180" width="100%" height="100%">
+  <!-- Card Background -->
+  <rect x="6" y="6" width="268" height="168" rx="6" fill="#FAF9F6" stroke="#14140F" stroke-width="2.5"/>
+  
+  <!-- Saffron & Green Accent Header -->
+  <rect x="6" y="6" width="268" height="6" fill="#FF9933" rx="2"/>
+  <rect x="6" y="168" width="268" height="6" fill="#138808" rx="2"/>
+
+  <!-- Slip Header -->
+  <text x="20" y="32" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="900" fill="#14140F">CITY ALLOTMENT SLIP 2026</text>
+  <rect x="210" y="22" width="52" height="16" rx="2" fill="#00C853" stroke="#14140F" stroke-width="1.5"/>
+  <text x="236" y="33" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="900" fill="#FFFFFF" text-anchor="middle">ACTIVE</text>
+
+  <line x1="20" y1="44" x2="260" y2="44" stroke="#14140F" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+  <!-- Details -->
+  <text x="20" y="62" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#7E7E73">NAME:</text>
+  <text x="80" y="62" font-family="'Public Sans', sans-serif" font-size="10" font-weight="800" fill="#14140F">SRIJAN PANDEY</text>
+
+  <text x="20" y="80" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#7E7E73">APP NO:</text>
+  <text x="80" y="80" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#14140F">260310842911</text>
+
+  <text x="20" y="98" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#7E7E73">ALLOTTED:</text>
+  <text x="80" y="98" font-family="'Public Sans', sans-serif" font-size="10" font-weight="800" fill="#2563EB">NEW DELHI / NOIDA</text>
+
+  <text x="20" y="116" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#7E7E73">DATE/SHIFT:</text>
+  <text x="80" y="116" font-family="'Public Sans', sans-serif" font-size="9" font-weight="800" fill="#0E7036">DEMO SESSION (SHIFT 1)</text>
+
+  <!-- QR Code Placeholder Box -->
+  <g transform="translate(205, 56)">
+    <rect width="55" height="55" rx="4" fill="#F6F5F0" stroke="#14140F" stroke-width="2"/>
+    <text x="27.5" y="24" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="800" fill="#7E7E73" text-anchor="middle">[QR BOX]</text>
+    <text x="27.5" y="38" font-family="'JetBrains Mono', monospace" font-size="7" font-weight="700" fill="#7E7E73" text-anchor="middle">SAMPLE</text>
+  </g>
+  <!-- Barcode Strip Placeholder -->
+  <g transform="translate(20, 134)">
+    <rect width="240" height="24" rx="3" fill="#F6F5F0" stroke="#14140F" stroke-width="1.5" stroke-dasharray="4 2"/>
+    <text x="120" y="16" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="800" fill="#7E7E73" text-anchor="middle">[SAMPLE BARCODE PLACEHOLDER]</text>
+  </g>
+</svg>

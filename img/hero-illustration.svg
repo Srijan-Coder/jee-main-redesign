@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 420" width="100%" height="100%">
+  <!-- Definitions & Patterns -->
+  <defs>
+    <pattern id="dotGrid" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#14140F" opacity="0.12"/>
+    </pattern>
+    <filter id="brutalistShadow" x="0" y="0" width="200%" height="200%">
+      <feOffset dx="6" dy="6" result="offset"/>
+      <feFlood flood-color="#14140F"/>
+      <feComposite in2="offset" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Blueprint Card Frame -->
+  <rect x="10" y="10" width="510" height="390" rx="8" fill="#FFFFFF" stroke="#14140F" stroke-width="3" filter="url(#brutalistShadow)"/>
+  <rect x="22" y="22" width="486" height="366" fill="url(#dotGrid)"/>
+
+  <!-- Top Stamp / Badge -->
+  <g transform="translate(30, 36)">
+    <rect width="140" height="24" rx="3" fill="#FFD000" stroke="#14140F" stroke-width="2"/>
+    <text x="70" y="16" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" fill="#14140F" text-anchor="middle">OFFICIAL CONCEPT</text>
+  </g>
+
+  <!-- Indian National Flag Hairline Badge -->
+  <g transform="translate(420, 36)">
+    <rect width="70" height="18" rx="2" fill="#FAF9F6" stroke="#14140F" stroke-width="1.5"/>
+    <rect x="2" y="2" width="66" height="4.5" fill="#FF9933"/>
+    <rect x="2" y="6.5" width="66" height="4.5" fill="#FFFFFF"/>
+    <rect x="2" y="11" width="66" height="4.5" fill="#138808"/>
+    <circle cx="35" cy="8.75" r="2" fill="#000080"/>
+  </g>
+
+  <!-- Central Editorial Illustration: Aspirant Working with Blueprint & Tech -->
+  <!-- Desk Base -->
+  <rect x="40" y="320" width="450" height="14" rx="2" fill="#14140F"/>
+
+  <!-- Physics / Maths Formula Papers on Desk -->
+  <g transform="translate(60, 270) rotate(-6)">
+    <rect width="90" height="60" rx="2" fill="#FAF9F6" stroke="#14140F" stroke-width="2"/>
+    <line x1="12" y1="14" x2="78" y2="14" stroke="#14140F" stroke-width="2"/>
+    <line x1="12" y1="24" x2="60" y2="24" stroke="#14140F" stroke-width="2"/>
+    <line x1="12" y1="34" x2="70" y2="34" stroke="#14140F" stroke-width="2"/>
+    <text x="12" y="50" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="900" fill="#FF4A22">F = ma</text>
+  </g>
+
+  <g transform="translate(140, 260) rotate(4)">
+    <rect width="80" height="65" rx="2" fill="#FFFDF4" stroke="#14140F" stroke-width="2"/>
+    <circle cx="40" cy="32" r="18" fill="none" stroke="#2563EB" stroke-width="2" stroke-dasharray="3,3"/>
+    <text x="40" y="36" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="900" fill="#2563EB" text-anchor="middle">∫ e^x dx</text>
+  </g>
+
+  <!-- Student Laptop (Running NTA Mock Test) -->
+  <g transform="translate(230, 220)">
+    <!-- Screen -->
+    <rect x="0" y="0" width="130" height="88" rx="4" fill="#14140F" stroke="#14140F" stroke-width="2"/>
+    <rect x="6" y="6" width="118" height="76" rx="2" fill="#FAF9F6"/>
+    <!-- Mock Test UI on screen -->
+    <rect x="12" y="12" width="70" height="10" rx="1" fill="#FFD000" stroke="#14140F" stroke-width="1"/>
+    <text x="15" y="20" font-family="'JetBrains Mono', monospace" font-size="7" font-weight="900" fill="#14140F">SECTION A: Q.14</text>
+    <rect x="12" y="28" width="106" height="4" fill="#14140F" opacity="0.3"/>
+    <rect x="12" y="36" width="90" height="4" fill="#14140F" opacity="0.3"/>
+    <!-- Question Option Bubbles -->
+    <circle cx="18" cy="52" r="4" fill="none" stroke="#14140F" stroke-width="1.5"/>
+    <circle cx="36" cy="52" r="4" fill="#00C853" stroke="#14140F" stroke-width="1.5"/>
+    <circle cx="54" cy="52" r="4" fill="none" stroke="#14140F" stroke-width="1.5"/>
+    <circle cx="72" cy="52" r="4" fill="none" stroke="#14140F" stroke-width="1.5"/>
+    <text x="96" y="55" font-family="'JetBrains Mono', monospace" font-size="7" font-weight="900" fill="#00C853">+4 MARKS</text>
+    <!-- Keyboard Base -->
+    <polygon points="-12,96 142,96 130,88 0,88" fill="#D5D3CC" stroke="#14140F" stroke-width="2"/>
+  </g>
+
+  <!-- Aspirant Character (Neo-Brutalist Line Art) -->
+  <g transform="translate(370, 130)">
+    <!-- Backpack -->
+    <rect x="-35" y="80" width="34" height="60" rx="6" fill="#FF4A22" stroke="#14140F" stroke-width="3"/>
+    <rect x="-30" y="95" width="24" height="20" rx="2" fill="#FFD000" stroke="#14140F" stroke-width="2"/>
+
+    <!-- Body & Hoodie -->
+    <path d="M-10,80 Q25,65 60,80 L55,190 L-5,190 Z" fill="#2563EB" stroke="#14140F" stroke-width="3"/>
+    <!-- Collar & Tricolor pin -->
+    <circle cx="20" cy="95" r="5" fill="#FFD000" stroke="#14140F" stroke-width="1.5"/>
+
+    <!-- Head & Hair -->
+    <circle cx="25" cy="40" r="28" fill="#FCEBD5" stroke="#14140F" stroke-width="3"/>
+    <path d="M0,35 Q25,0 52,35 Q40,10 15,14 Z" fill="#14140F"/>
+
+    <!-- Glasses (Studious Aspirant Look) -->
+    <rect x="12" y="32" width="16" height="12" rx="2" fill="none" stroke="#14140F" stroke-width="2.5"/>
+    <rect x="34" y="32" width="16" height="12" rx="2" fill="none" stroke="#14140F" stroke-width="2.5"/>
+    <line x1="28" y1="38" x2="34" y2="38" stroke="#14140F" stroke-width="2"/>
+    <!-- Smile -->
+    <path d="M22,54 Q31,60 40,54" fill="none" stroke="#14140F" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Arm reaching to notebook/pen -->
+    <path d="M5,110 Q-20,130 -40,150 L-30,165 Q-10,145 15,125 Z" fill="#2563EB" stroke="#14140F" stroke-width="3"/>
+    <!-- Pen in hand -->
+    <line x1="-48" y1="156" x2="-28" y2="136" stroke="#FFD000" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="-50" cy="158" r="2" fill="#14140F"/>
+  </g>
+
+  <!-- Floating Sticky Note / Advice Pill -->
+  <g transform="translate(40, 90) rotate(-3)">
+    <rect width="130" height="60" rx="4" fill="#FFD000" stroke="#14140F" stroke-width="2.5" filter="url(#brutalistShadow)"/>
+    <text x="14" y="24" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="900" fill="#14140F">TARGET: 100%ILE</text>
+    <text x="14" y="42" font-family="'Public Sans', sans-serif" font-size="10" font-weight="700" fill="#14140F">IIT Bombay Zone</text>
+  </g>
+
+  <!-- Floating Hologram Seal removed -->
+</svg>

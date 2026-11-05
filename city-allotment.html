@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advance City Allotment Slip // JEE (Main) 2026 // National Examination Portal</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="concept-disclaimer-topbar">Concept redesign, not the official website</div>
+
+  <!-- Hairline Indian Tricolor Accent -->
+  <div class="india-tricolor-bar">
+    <div class="tri-saffron"></div>
+    <div class="tri-white"></div>
+    <div class="tri-green"></div>
+  </div>
+
+  <!-- Custom Interactive Cursor (Desktop) -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- Urgent Live Marquee Ticker (Top of Screen) -->
+  <div class="top-ticker-ribbon">
+    <div class="ticker-track">
+      <span>&#9733; <strong>JEE (MAIN) 2026 CONCEPT REDESIGN</strong></span>
+      <span>&#9679;</span>
+      <span>SESSION 1 ADVANCE CITY ALLOTMENT LIVE</span>
+      <span>&#9679;</span>
+      <span>STRICT GATE CLOSURE: SHIFT 1 AT 08:30 AM | SHIFT 2 AT 02:30 PM</span>
+      <span>&#9679;</span>
+      <span>INDEPENDENT DESIGN CONCEPT • DEMO</span>
+      <span>&#9679;</span>
+      <span>1,415,820 REGISTERED ASPIRANTS NATIONWIDE</span>
+      <span>&#9679;</span>
+      <span>312 INDIAN & INTERNATIONAL TEST CENTERS</span>
+      <span>&#9679;</span>
+      <span>EXAMINATION HELPLINE: 011-40759000 // 011-69227700</span>
+      <span>&#9733; <strong>JEE (MAIN) 2026 CONCEPT REDESIGN</strong></span>
+      <span>&#9679;</span>
+      <span>SESSION 1 ADVANCE CITY ALLOTMENT LIVE</span>
+      <span>&#9679;</span>
+      <span>STRICT GATE CLOSURE: SHIFT 1 AT 08:30 AM | SHIFT 2 AT 02:30 PM</span>
+      <span>&#9679;</span>
+      <span>INDEPENDENT DESIGN CONCEPT • DEMO</span>
+      <span>&#9679;</span>
+      <span>1,415,820 REGISTERED ASPIRANTS NATIONWIDE</span>
+      <span>&#9679;</span>
+      <span>312 INDIAN & INTERNATIONAL TEST CENTERS</span>
+      <span>&#9679;</span>
+      <span>EXAMINATION HELPLINE: 011-40759000 // 011-69227700</span>
+    </div>
+  </div>
+
+  <!-- Unified Luxury Institutional Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="./index.html" class="header-brand">
+        <div class="header-brand-logo concept-logo-placeholder">Concept</div>
+        <div class="header-brand-text">
+          <span class="header-brand-tag">CONCEPT ARCHITECTURE // DEMO</span>
+          <span class="header-brand-title" id="txt-logo-title">JEE (MAIN) 2026</span>
+        </div>
+      </a>
+
+      <nav class="header-nav-dock">
+        <a href="./index.html" class="" id="nav-home">Home</a>
+        <a href="./city-allotment.html" class="active" id="nav-actions">City Allotment</a>
+        <a href="./city-directory.html" class="" id="nav-tools">300+ Exam Cities</a>
+        <a href="./scorecard.html" class="" id="nav-scorecard">Score & Keys</a>
+        <a href="./public-notices.html" class="" id="nav-notices">Public Notices</a>
+        <a href="./helpdesk.html" class="" id="nav-helpdesk">IIT Helpdesk</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="lang-toggle" class="header-btn" title="Toggle Language">&#2361;&#2367;&#2344;&#2381;&#2342;&#2368;</button>
+        <button id="sound-toggle" class="header-btn" title="Toggle Audio Ambience">&#9835; SOUND</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Body -->
+  <div class="content-wrapper" style="padding-top: 40px;">
+    <div class="container" style="max-width: 1000px;">
+
+      <div class="section-title-wrap">
+        <div>
+          <h2 class="section-headline">Advance City Allotment Slip</h2>
+          <p class="section-subline">Sample Candidate Demonstration & Exam City Slip</p>
+        </div>
+        <span class="status-tag active">SYSTEM OPERATIONAL</span>
+      </div>
+
+      <!-- Verification Form Card -->
+      <div class="bento-card" style="margin-bottom: 40px;">
+        <h3 style="font-size: 20px; font-weight: 900; margin-bottom: 8px;">Candidate Authentication</h3>
+        <p style="font-size: 13px; color: var(--ink-charcoal); margin-bottom: 24px;">
+          Enter your 12-digit Application Number, Date of Birth as recorded in Class 10 Certificate, and the security code.
+        </p>
+
+        <form id="slip-lookup-form" onsubmit="event.preventDefault(); document.getElementById('sample-slip-container').style.display='block'; window.scrollTo({top: document.getElementById('sample-slip-container').offsetTop - 80, behavior: 'smooth'});">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin-bottom: 20px;">
+            <div class="score-box-input">
+              <label>Application Number (12 Digits)</label>
+              <input type="text" id="app-num" class="search-input-clean" value="260310842911" required style="font-size: 15px; font-weight: 700; text-align: left; padding: 12px 14px;">
+            </div>
+
+            <div class="score-box-input">
+              <label>Date of Birth (DD-MM-YYYY)</label>
+              <input type="date" id="dob" class="search-input-clean" value="2008-04-18" required style="font-size: 14px; font-weight: 700; padding: 10px 14px;">
+            </div>
+
+            <div class="score-box-input">
+              <label>Course Applied</label>
+              <select class="city-select-clean" style="margin-bottom: 0;">
+                <option value="BTECH">Paper 1: B.E. / B.Tech</option>
+                <option value="BARCH">Paper 2A: B.Arch</option>
+                <option value="BPLAN">Paper 2B: B.Planning</option>
+              </select>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 16px; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+            <div style="display: flex; gap: 12px; align-items: center;">
+              <span style="font-family: var(--font-mono); font-size: 18px; font-weight: 900; background: #EFECE6; border: 1.5px solid #121212; padding: 8px 16px; border-radius: 6px; letter-spacing: 4px; user-select: none;">
+                N 7 4 K 9
+              </span>
+              <input type="text" placeholder="Enter Security Code" class="search-input-clean" style="width: 170px; margin-bottom: 0;" value="N74K9">
+            </div>
+
+            <button type="submit" class="btn-primary-pill" style="border: 2px solid #121212;">
+              DOWNLOAD ADVANCE CITY SLIP &rarr;
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Sample Slip Document (Printable Mockup) -->
+      <div id="sample-slip-container" style="display: block;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+          <h4 style="font-family: var(--font-mono); font-size: 13px; font-weight: 800; text-transform: uppercase;">
+            ✓ Sample City Slip Generated
+          </h4>
+          <button onclick="window.print();" class="btn-secondary-pill" style="padding: 8px 20px; font-size: 12px;">
+            🖨️ Print / Save Sample PDF
+          </button>
+        </div>
+
+        <div class="admit-slip-sheet" style="margin-bottom: 60px;">
+          <!-- Slip Header -->
+          <div class="slip-header-grid">
+            <div class="slip-title">
+              <h2>Examination Concept</h2>
+              <p>Joint Entrance Examination (Main) 2026 Session 1</p>
+              <div style="font-family: var(--font-mono); font-size: 11px; margin-top: 4px; color: var(--ink-light);">
+                Independent Engineering Concept Architecture
+              </div>
+            </div>
+            <div style="text-align: right;">
+              <div style="border: 2px solid #121212; padding: 6px 12px; border-radius: 6px; font-family: var(--font-mono); font-size: 12px; font-weight: 900; background: #F6F5F0;">
+                SAMPLE SLIP
+              </div>
+              <div style="font-size: 10px; font-family: var(--font-mono); margin-top: 4px;">CONCEPT DEMO</div>
+            </div>
+          </div>
+
+          <!-- Barcode Area -->
+          <div class="slip-barcode-area">
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 11px; font-weight: 700; color: var(--ink-light);">CANDIDATE APPLICATION BARCODE</div>
+              <div style="width: 220px; height: 34px; border: 1.5px dashed var(--ink-black); background: #F6F5F0; display: flex; align-items: center; justify-content: center; font-family: var(--font-mono); font-size: 10px; font-weight: 700; color: var(--ink-light);">[SAMPLE BARCODE]</div>
+              <div style="font-family: var(--font-mono); font-size: 11px; font-weight: 800; letter-spacing: 2px; margin-top: 2px;">260310842911</div>
+            </div>
+
+            <div style="display: flex; gap: 12px; align-items: center;">
+              <div style="width: 70px; height: 70px; border: 2px solid #121212; display: flex; align-items: center; justify-content: center; font-size: 9px; font-family: var(--font-mono); text-align: center; background: #FFFFFF;">
+                [SAMPLE<br>PHOTO]
+              </div>
+              <div style="width: 70px; height: 70px; border: 2px solid #121212; display: flex; align-items: center; justify-content: center; font-size: 9px; font-family: var(--font-mono); text-align: center; background: #FFFFFF;">
+                [SAMPLE<br>QR BOX]
+              </div>
+            </div>
+          </div>
+
+          <!-- Candidate Details Table -->
+          <table class="slip-table">
+            <tr>
+              <th>Application No:</th>
+              <td style="font-family: var(--font-mono); font-weight: 800;">260310842911</td>
+              <th>Candidate Name:</th>
+              <td style="font-weight: 800;">SRIJAN PANDEY</td>
+            </tr>
+            <tr>
+              <th>Father's Name:</th>
+              <td>R. K. PANDEY</td>
+              <th>Gender / DOB:</th>
+              <td>Male / DD-MM-YYYY</td>
+            </tr>
+            <tr>
+              <th>Category:</th>
+              <td>General - EWS</td>
+              <th>Person with Disability:</th>
+              <td>No</td>
+            </tr>
+            <tr>
+              <th>State of Eligibility:</th>
+              <td>Delhi (NCT)</td>
+              <th>Applied Course:</th>
+              <td style="font-weight: 800;">B.E. / B.Tech (Paper 1)</td>
+            </tr>
+          </table>
+
+          <!-- Examination Schedule Table -->
+          <table class="slip-table" style="background: #FAF9F6;">
+            <tr>
+              <th style="background: #EFECE6;">Allotted Exam City:</th>
+              <td colspan="3" style="font-size: 15px; font-weight: 900; color: #2563EB;">
+                NEW DELHI / NOIDA (NATIONAL CAPITAL REGION)
+              </td>
+            </tr>
+            <tr>
+              <th>City / Center Code:</th>
+              <td style="font-family: var(--font-mono); font-weight: 800;">DL0104</td>
+              <th>Date of Examination:</th>
+              <td style="font-weight: 900; color: #0E7036;">SESSION 1 (SAMPLE DATE)</td>
+            </tr>
+            <tr>
+              <th>Shift:</th>
+              <td style="font-weight: 800;">Shift 1 (First Shift)</td>
+              <th>Exam Timing:</th>
+              <td style="font-family: var(--font-mono); font-weight: 800;">09:00 AM – 12:00 PM IST</td>
+            </tr>
+            <tr>
+              <th>Reporting Time:</th>
+              <td style="font-family: var(--font-mono); font-weight: 800;">07:30 AM IST</td>
+              <th>Gate Closure:</th>
+              <td style="font-family: var(--font-mono); font-weight: 900; color: #DC2626;">08:30 AM IST (STRICT)</td>
+            </tr>
+          </table>
+
+          <!-- Advisory -->
+          <div class="slip-advisory">
+            <h5 style="font-size: 12px; font-weight: 900; margin-bottom: 6px;">Important Instructions for Candidate:</h5>
+            <ol style="padding-left: 18px; margin-bottom: 12px;">
+              <li>This is <strong>NOT the Admit Card</strong> for JEE (Main) - 2026 Session 1. This advance intimation informs the candidate about the city allotted where the Examination Centre will be located to facilitate travel logistics.</li>
+              <li>The sample Admit Card specifying the test center name and address will be released prior to the examination date.</li>
+              <li>Candidates must bring an original government-issued photo ID (Aadhaar Card with updated photo / Passport / Voter ID / Class 12 Admit Card with photograph) to the center.</li>
+              <li>Electronic devices, smartwatches, calculators, and study materials are strictly prohibited inside the test hall.</li>
+            </ol>
+            <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-top: 16px;">
+              <span style="font-family: var(--font-mono); font-size: 10px; color: var(--ink-light);">
+                Sample Document ID: DEMO-JEE-SLIP-001 &bull; Independent Concept Redesign
+              </span>
+              <div style="text-align: right;">
+                <div style="font-family: var(--font-serif); font-size: 16px; font-style: italic; font-weight: 800;">Director of Examinations (Sample)</div>
+                <div style="font-family: var(--font-mono); font-size: 10px; font-weight: 700;">Examination Specimen Authority</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+      <!-- Modern Liquid Glass Institutional Footer -->
+    <!-- Modern Liquid Glass Institutional Footer -->
+    <!-- Perfected Modern Liquid Glass Footer -->
+  <footer class="gov-footer">
+    <div class="footer-tricolor-accent">
+      <div class="tri-saffron"></div>
+      <div class="tri-white"></div>
+      <div class="tri-green"></div>
+    </div>
+    <div class="footer-glass-inner">
+      <div class="footer-top-grid">
+        <div class="footer-brand-liquid">
+          <div class="brand-row">
+            <div class="footer-logo-placeholder">Concept</div>
+            <div>
+              <div class="brand-tagline">INDEPENDENT CONCEPT REDESIGN</div>
+              <h3>JEE (MAIN) 2026</h3>
+            </div>
+          </div>
+          <p>
+            The Joint Entrance Examination (Main) is conducted by the National Testing Agency for transparent undergraduate engineering admissions across NITs, IIITs, CFTIs, and as eligibility for JEE (Advanced).
+          </p>
+          <div class="footer-badges-strip">
+            <span class="badge-chip-green">&#9679; 256-Bit NIC Cloud Grid</span>
+            <span class="badge-chip-blue">&#128274; SSO Demo</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">CANDIDATE SERVICES</div>
+          <ul class="footer-links-list">
+            <li><a href="./city-allotment.html">Advance City Allotment &rarr;</a></li>
+            <li><a href="./city-directory.html">300+ Exam Cities &rarr;</a></li>
+            <li><a href="./scorecard.html">Scorecard & Answer Keys &rarr;</a></li>
+            <li><a href="./public-notices.html">Bulletins & Archive &rarr;</a></li>
+            <li><a href="./helpdesk.html">IIT Zonal Helpdesk &rarr;</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">NATIONAL NODES</div>
+          <ul class="footer-links-list">
+            <li><a href="https://www.education.gov.in/" target="_blank" rel="noopener">Ministry of Education &rarr;</a></li>
+            <li><a href="https://nta.ac.in/" target="_blank" rel="noopener">National Testing Agency &rarr;</a></li>
+            <li><a href="https://jeeadv.ac.in/" target="_blank" rel="noopener">JEE (Advanced) 2026 &rarr;</a></li>
+            <li><a href="https://josaa.nic.in/" target="_blank" rel="noopener">JoSAA Seat Allocation &rarr;</a></li>
+            <li><a href="https://digilocker.gov.in/" target="_blank" rel="noopener">External: DigiLocker &rarr;</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">EXAMINATION HELPLINE DESK</div>
+          <div class="footer-helpline-card">
+            <div><strong>Toll-Free Helpline:</strong> 011-40759000</div>
+            <div><strong>Alternate Helpline:</strong> 011-69227700</div>
+            <div><strong>Inquiries Email:</strong> jeemain@nta.ac.in</div>
+            <div style="margin-top: 6px; color: var(--ink-light); font-size: 10px;">First Floor, NSIC-MDBP Building, Okhla Industrial Estate, Phase III, New Delhi - 110020</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>
+          <span>Concept redesign mockup. Not affiliated with any official agency.</span>
+          <span>&bull;</span>
+          <span>Bilingual Examination Architecture</span>
+        </div>
+        <div>
+          <span>Engineered for 1.41 Million Indian Aspirants</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  
+
+</body>
+</html>

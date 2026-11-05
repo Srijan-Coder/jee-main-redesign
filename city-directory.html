@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>300+ Exam Cities Directory // JEE (Main) 2026 // National Examination Portal</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="concept-disclaimer-topbar">Concept redesign, not the official website</div>
+
+  <!-- Hairline Indian Tricolor Accent -->
+  <div class="india-tricolor-bar">
+    <div class="tri-saffron"></div>
+    <div class="tri-white"></div>
+    <div class="tri-green"></div>
+  </div>
+
+  <!-- Custom Interactive Cursor (Desktop) -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- Urgent Live Marquee Ticker (Top of Screen) -->
+  <div class="top-ticker-ribbon">
+    <div class="ticker-track">
+      <span>&#9733; <strong>JEE (MAIN) 2026 CONCEPT REDESIGN</strong></span>
+      <span>&#9679;</span>
+      <span>SESSION 1 ADVANCE CITY ALLOTMENT LIVE</span>
+      <span>&#9679;</span>
+      <span>STRICT GATE CLOSURE: SHIFT 1 AT 08:30 AM | SHIFT 2 AT 02:30 PM</span>
+      <span>&#9679;</span>
+      <span>INDEPENDENT DESIGN CONCEPT • DEMO</span>
+      <span>&#9679;</span>
+      <span>1,415,820 REGISTERED ASPIRANTS NATIONWIDE</span>
+      <span>&#9679;</span>
+      <span>312 INDIAN & INTERNATIONAL TEST CENTERS</span>
+      <span>&#9679;</span>
+      <span>EXAMINATION HELPLINE: 011-40759000 // 011-69227700</span>
+      <span>&#9733; <strong>JEE (MAIN) 2026 CONCEPT REDESIGN</strong></span>
+      <span>&#9679;</span>
+      <span>SESSION 1 ADVANCE CITY ALLOTMENT LIVE</span>
+      <span>&#9679;</span>
+      <span>STRICT GATE CLOSURE: SHIFT 1 AT 08:30 AM | SHIFT 2 AT 02:30 PM</span>
+      <span>&#9679;</span>
+      <span>INDEPENDENT DESIGN CONCEPT • DEMO</span>
+      <span>&#9679;</span>
+      <span>1,415,820 REGISTERED ASPIRANTS NATIONWIDE</span>
+      <span>&#9679;</span>
+      <span>312 INDIAN & INTERNATIONAL TEST CENTERS</span>
+      <span>&#9679;</span>
+      <span>EXAMINATION HELPLINE: 011-40759000 // 011-69227700</span>
+    </div>
+  </div>
+
+  <!-- Unified Luxury Institutional Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="./index.html" class="header-brand">
+        <div class="header-brand-logo concept-logo-placeholder">Concept</div>
+        <div class="header-brand-text">
+          <span class="header-brand-tag">CONCEPT ARCHITECTURE // DEMO</span>
+          <span class="header-brand-title" id="txt-logo-title">JEE (MAIN) 2026</span>
+        </div>
+      </a>
+
+      <nav class="header-nav-dock">
+        <a href="./index.html" class="" id="nav-home">Home</a>
+        <a href="./city-allotment.html" class="" id="nav-actions">City Allotment</a>
+        <a href="./city-directory.html" class="active" id="nav-tools">300+ Exam Cities</a>
+        <a href="./scorecard.html" class="" id="nav-scorecard">Score & Keys</a>
+        <a href="./public-notices.html" class="" id="nav-notices">Public Notices</a>
+        <a href="./helpdesk.html" class="" id="nav-helpdesk">IIT Helpdesk</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="lang-toggle" class="header-btn" title="Toggle Language">&#2361;&#2367;&#2344;&#2381;&#2342;&#2368;</button>
+        <button id="sound-toggle" class="header-btn" title="Toggle Audio Ambience">&#9835; SOUND</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Body -->
+  <div class="content-wrapper" style="padding-top: 40px;">
+    <div class="container">
+
+      <div class="section-title-wrap">
+        <div>
+          <h2 class="section-headline">300+ Examination City Directory</h2>
+          <p class="section-subline">Examination Venues across 36 States/UTs and International Centers</p>
+        </div>
+        <span class="status-tag active">312 TEST CITIES</span>
+      </div>
+
+      <!-- Controls & Search -->
+      <div class="bento-card" style="margin-bottom: 30px; padding: 24px;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+          <div>
+            <label style="display: block; font-family: var(--font-mono); font-size: 11px; font-weight: 800; margin-bottom: 6px;">
+              Filter by State / Union Territory
+            </label>
+            <select id="dir-state-filter" class="city-select-clean" style="margin-bottom: 0;">
+              <option value="ALL">All States & Union Territories (India & International)</option>
+              <option value="DELHI">Delhi NCR</option>
+              <option value="RAJASTHAN">Rajasthan</option>
+              <option value="UTTAR PRADESH">Uttar Pradesh</option>
+              <option value="BIHAR">Bihar</option>
+              <option value="MAHARASHTRA">Maharashtra</option>
+              <option value="TELANGANA">Telangana</option>
+              <option value="KARNATAKA">Karnataka</option>
+              <option value="WEST BENGAL">West Bengal</option>
+              <option value="TAMIL NADU">Tamil Nadu</option>
+              <option value="GUJARAT">Gujarat</option>
+              <option value="MADHYA PRADESH">Madhya Pradesh</option>
+              <option value="PUNJAB">Punjab</option>
+              <option value="INTERNATIONAL">Outside India (Dubai, Singapore, Doha...)</option>
+            </select>
+          </div>
+
+          <div>
+            <label style="display: block; font-family: var(--font-mono); font-size: 11px; font-weight: 800; margin-bottom: 6px;">
+              Search City Name or Center Code
+            </label>
+            <input type="text" id="dir-search-input" class="search-input-clean" placeholder="Type city (e.g. Kota, Patna, Pune, DL01)..." style="margin-bottom: 0;">
+          </div>
+        </div>
+      </div>
+
+      <!-- Directory Table -->
+      <div class="notices-table-clean" style="margin-bottom: 60px;">
+        <div style="display: grid; grid-template-columns: 100px 180px 1fr 120px 140px; padding: 14px 24px; background: #EFECE6; font-family: var(--font-mono); font-size: 11px; font-weight: 900; border-bottom: 2px solid #121212;">
+          <div>CODE</div>
+          <div>STATE / UT</div>
+          <div>CITY NAME & TEST CENTERS</div>
+          <div>SHIFTS</div>
+          <div style="text-align: right;">STATUS</div>
+        </div>
+
+        <div id="directory-rows-container">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+      <!-- Modern Liquid Glass Institutional Footer -->
+    <!-- Modern Liquid Glass Institutional Footer -->
+    <!-- Perfected Modern Liquid Glass Footer -->
+  <footer class="gov-footer">
+    <div class="footer-tricolor-accent">
+      <div class="tri-saffron"></div>
+      <div class="tri-white"></div>
+      <div class="tri-green"></div>
+    </div>
+    <div class="footer-glass-inner">
+      <div class="footer-top-grid">
+        <div class="footer-brand-liquid">
+          <div class="brand-row">
+            <div class="footer-logo-placeholder">Concept</div>
+            <div>
+              <div class="brand-tagline">INDEPENDENT CONCEPT REDESIGN</div>
+              <h3>JEE (MAIN) 2026</h3>
+            </div>
+          </div>
+          <p>
+            The Joint Entrance Examination (Main) is conducted by the National Testing Agency for transparent undergraduate engineering admissions across NITs, IIITs, CFTIs, and as eligibility for JEE (Advanced).
+          </p>
+          <div class="footer-badges-strip">
+            <span class="badge-chip-green">&#9679; 256-Bit NIC Cloud Grid</span>
+            <span class="badge-chip-blue">&#128274; SSO Demo</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">CANDIDATE SERVICES</div>
+          <ul class="footer-links-list">
+            <li><a href="./city-allotment.html">Advance City Allotment &rarr;</a></li>
+            <li><a href="./city-directory.html">300+ Exam Cities &rarr;</a></li>
+            <li><a href="./scorecard.html">Scorecard & Answer Keys &rarr;</a></li>
+            <li><a href="./public-notices.html">Bulletins & Archive &rarr;</a></li>
+            <li><a href="./helpdesk.html">IIT Zonal Helpdesk &rarr;</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">NATIONAL NODES</div>
+          <ul class="footer-links-list">
+            <li><a href="https://www.education.gov.in/" target="_blank" rel="noopener">Ministry of Education &rarr;</a></li>
+            <li><a href="https://nta.ac.in/" target="_blank" rel="noopener">National Testing Agency &rarr;</a></li>
+            <li><a href="https://jeeadv.ac.in/" target="_blank" rel="noopener">JEE (Advanced) 2026 &rarr;</a></li>
+            <li><a href="https://josaa.nic.in/" target="_blank" rel="noopener">JoSAA Seat Allocation &rarr;</a></li>
+            <li><a href="https://digilocker.gov.in/" target="_blank" rel="noopener">External: DigiLocker &rarr;</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">EXAMINATION HELPLINE DESK</div>
+          <div class="footer-helpline-card">
+            <div><strong>Toll-Free Helpline:</strong> 011-40759000</div>
+            <div><strong>Alternate Helpline:</strong> 011-69227700</div>
+            <div><strong>Inquiries Email:</strong> jeemain@nta.ac.in</div>
+            <div style="margin-top: 6px; color: var(--ink-light); font-size: 10px;">First Floor, NSIC-MDBP Building, Okhla Industrial Estate, Phase III, New Delhi - 110020</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>
+          <span>Concept redesign mockup. Not affiliated with any official agency.</span>
+          <span>&bull;</span>
+          <span>Bilingual Examination Architecture</span>
+        </div>
+        <div>
+          <span>Engineered for 1.41 Million Indian Aspirants</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const CITIES_MASTER = [
+      { code: 'DL01', state: 'DELHI', stateName: 'Delhi (NCR)', city: 'Delhi / New Delhi', venues: 48, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'RJ06', state: 'RAJASTHAN', stateName: 'Rajasthan', city: 'Kota (Coaching Hub)', venues: 28, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'RJ01', state: 'RAJASTHAN', stateName: 'Rajasthan', city: 'Jaipur', venues: 32, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'RJ07', state: 'RAJASTHAN', stateName: 'Rajasthan', city: 'Jodhpur', venues: 16, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'UP12', state: 'UTTAR PRADESH', stateName: 'Uttar Pradesh', city: 'Lucknow', venues: 34, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'UP08', state: 'UTTAR PRADESH', stateName: 'Uttar Pradesh', city: 'Kanpur', venues: 26, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'UP25', state: 'UTTAR PRADESH', stateName: 'Uttar Pradesh', city: 'Varanasi', venues: 22, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'UP18', state: 'UTTAR PRADESH', stateName: 'Uttar Pradesh', city: 'Noida / Greater Noida', venues: 30, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'UP20', state: 'UTTAR PRADESH', stateName: 'Uttar Pradesh', city: 'Prayagraj (Allahabad)', venues: 24, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'BR07', state: 'BIHAR', stateName: 'Bihar', city: 'Patna', venues: 36, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'BR05', state: 'BIHAR', stateName: 'Bihar', city: 'Gaya', venues: 14, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'BR09', state: 'BIHAR', stateName: 'Bihar', city: 'Muzaffarpur', venues: 18, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'MR16', state: 'MAHARASHTRA', stateName: 'Maharashtra', city: 'Mumbai / Navi Mumbai', venues: 44, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'MR22', state: 'MAHARASHTRA', stateName: 'Maharashtra', city: 'Pune', venues: 38, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'MR17', state: 'MAHARASHTRA', stateName: 'Maharashtra', city: 'Nagpur', venues: 22, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'TL01', state: 'TELANGANA', stateName: 'Telangana', city: 'Hyderabad / Secunderabad', venues: 46, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'TL02', state: 'TELANGANA', stateName: 'Telangana', city: 'Warangal', venues: 14, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'KK04', state: 'KARNATAKA', stateName: 'Karnataka', city: 'Bengaluru Urban & Rural', venues: 42, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'KK12', state: 'KARNATAKA', stateName: 'Karnataka', city: 'Mysuru (Mysore)', venues: 16, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'WB10', state: 'WEST BENGAL', stateName: 'West Bengal', city: 'Kolkata', venues: 38, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'WB12', state: 'WEST BENGAL', stateName: 'West Bengal', city: 'Siliguri', venues: 12, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'TN02', state: 'TAMIL NADU', stateName: 'Tamil Nadu', city: 'Chennai', venues: 36, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'TN03', state: 'TAMIL NADU', stateName: 'Tamil Nadu', city: 'Coimbatore', venues: 20, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'GJ01', state: 'GUJARAT', stateName: 'Gujarat', city: 'Ahmedabad', venues: 28, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'GJ02', state: 'GUJARAT', stateName: 'Gujarat', city: 'Surat', venues: 22, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'MP03', state: 'MADHYA PRADESH', stateName: 'Madhya Pradesh', city: 'Bhopal', venues: 24, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'MP07', state: 'MADHYA PRADESH', stateName: 'Madhya Pradesh', city: 'Indore', venues: 26, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'PB08', state: 'PUNJAB', stateName: 'Punjab', city: 'Ludhiana', venues: 16, shifts: 'Shift 1 & 2', status: 'Active (Allotted)' },
+      { code: 'INT01', state: 'INTERNATIONAL', stateName: 'United Arab Emirates', city: 'Dubai', venues: 4, shifts: 'Shift 1', status: 'Overseas Center' },
+      { code: 'INT02', state: 'INTERNATIONAL', stateName: 'Singapore', city: 'Singapore', venues: 2, shifts: 'Shift 1', status: 'Overseas Center' },
+      { code: 'INT03', state: 'INTERNATIONAL', stateName: 'Qatar', city: 'Doha', venues: 3, shifts: 'Shift 1', status: 'Overseas Center' },
+      { code: 'INT04', state: 'INTERNATIONAL', stateName: 'Kuwait', city: 'Kuwait City', venues: 3, shifts: 'Shift 1', status: 'Overseas Center' }
+    ];
+
+    const stateFilter = document.getElementById('dir-state-filter');
+    const searchFilter = document.getElementById('dir-search-input');
+    const rowsContainer = document.getElementById('directory-rows-container');
+
+    function renderTable() {
+      const selectedState = stateFilter.value;
+      const q = searchFilter.value.toLowerCase().trim();
+
+      const filtered = CITIES_MASTER.filter(item => {
+        const matchState = selectedState === 'ALL' || item.state === selectedState;
+        const matchQuery = q === '' || item.city.toLowerCase().includes(q) || item.code.toLowerCase().includes(q) || item.stateName.toLowerCase().includes(q);
+        return matchState && matchQuery;
+      });
+
+      if (filtered.length === 0) {
+        rowsContainer.innerHTML = '<div style="padding: 24px; text-align: center; color: var(--ink-light); font-size: 14px;">No examination centers match your criteria.</div>';
+        return;
+      }
+
+      rowsContainer.innerHTML = filtered.map(c => `
+        <div style="display: grid; grid-template-columns: 100px 180px 1fr 120px 140px; align-items: center; padding: 14px 24px; border-bottom: 1px solid rgba(18,18,18,0.12); font-size: 13px;">
+          <div style="font-family: var(--font-mono); font-weight: 800; color: #2563EB;">${c.code}</div>
+          <div style="font-weight: 700; color: var(--ink-charcoal);">${c.stateName}</div>
+          <div>
+            <span style="font-weight: 800; font-size: 14px;">${c.city}</span>
+            <small style="display: block; font-family: var(--font-mono); font-size: 11px; color: var(--ink-light);">${c.venues} Computer-Based Test Nodes</small>
+          </div>
+          <div style="font-family: var(--font-mono); font-size: 12px;">${c.shifts}</div>
+          <div style="text-align: right;">
+            <span class="status-tag active" style="font-size: 10px;">${c.status}</span>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    stateFilter.addEventListener('change', renderTable);
+    searchFilter.addEventListener('input', renderTable);
+    renderTable();
+  </script>
+
+  
+
+</body>
+</html>

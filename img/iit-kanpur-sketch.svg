@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140" width="100%" height="100%">
+  <!-- Background Paper -->
+  <rect width="320" height="140" fill="#FAF9F6"/>
+  <!-- Horizon Line -->
+  <line x1="0" y1="120" x2="320" y2="120" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- IIT Kanpur Iconic PK Kelkar Library & Modernist Brick Building -->
+  <!-- Left Wing -->
+  <rect x="35" y="65" width="85" height="55" fill="#F4F3EF" stroke="#121212" stroke-width="2"/>
+  <!-- Central Tower / Library Block -->
+  <rect x="120" y="42" width="90" height="78" fill="#FFFFFF" stroke="#121212" stroke-width="2.5"/>
+  <!-- Right Wing -->
+  <rect x="210" y="65" width="80" height="55" fill="#F4F3EF" stroke="#121212" stroke-width="2"/>
+
+  <!-- Iconic Cantilevered Overhang -->
+  <line x1="114" y1="42" x2="216" y2="42" stroke="#121212" stroke-width="3"/>
+
+  <!-- Grid of Modernist Brick Louvres & Windows -->
+  <g stroke="#121212" stroke-width="1.2" fill="#E8E5DD">
+    <!-- Center Tower Windows -->
+    <rect x="130" y="52" width="18" height="14"/>
+    <rect x="156" y="52" width="18" height="14"/>
+    <rect x="182" y="52" width="18" height="14"/>
+
+    <rect x="130" y="74" width="18" height="14"/>
+    <rect x="156" y="74" width="18" height="14"/>
+    <rect x="182" y="74" width="18" height="14"/>
+
+    <!-- Left Wing Windows -->
+    <line x1="45" y1="78" x2="110" y2="78"/>
+    <line x1="45" y1="92" x2="110" y2="92"/>
+    <line x1="45" y1="106" x2="110" y2="106"/>
+
+    <!-- Right Wing Windows -->
+    <line x1="220" y1="78" x2="280" y2="78"/>
+    <line x1="220" y1="92" x2="280" y2="92"/>
+    <line x1="220" y1="106" x2="280" y2="106"/>
+  </g>
+
+  <!-- Open Ground Level Pilotis / Columns -->
+  <g stroke="#121212" stroke-width="2">
+    <line x1="135" y1="100" x2="135" y2="120"/>
+    <line x1="155" y1="100" x2="155" y2="120"/>
+    <line x1="175" y1="100" x2="175" y2="120"/>
+    <line x1="195" y1="100" x2="195" y2="120"/>
+  </g>
+
+  <!-- Architectural Label -->
+  <rect x="10" y="10" width="144" height="18" rx="2" fill="#FFFFFF" stroke="#121212" stroke-width="1.2"/>
+  <text x="16" y="23" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="800" fill="#121212">IIT KANPUR // PK KELKAR</text>
+
+  <!-- Coordinates -->
+  <text x="310" y="22" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#7E7C75" text-anchor="end">26.5123° N, 80.2329° E</text>
+</svg>

@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Newsreader';
+  font-weight: 600;
+  font-style: normal;
+  src: url('Newsreader-600.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Newsreader';
+  font-weight: 400;
+  font-style: normal;
+  src: url('Newsreader-400.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Public Sans';
+  font-weight: 400;
+  font-style: normal;
+  src: url('PublicSans-400.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Public Sans';
+  font-weight: 500;
+  font-style: normal;
+  src: url('PublicSans-500.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Public Sans';
+  font-weight: 600;
+  font-style: normal;
+  src: url('PublicSans-600.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-weight: 400;
+  font-style: normal;
+  src: url('JetBrainsMono-400.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Caveat';
+  src: url('./Caveat.ttf') format('truetype');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}

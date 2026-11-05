@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 180" width="100%" height="100%">
+  <!-- Background Sheet -->
+  <rect x="6" y="6" width="268" height="168" rx="6" fill="#FAF9F6" stroke="#14140F" stroke-width="2.5"/>
+
+  <!-- Top Strip -->
+  <rect x="6" y="6" width="268" height="28" fill="#14140F" rx="3"/>
+  <text x="18" y="24" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="900" fill="#FFD000">SAMPLE ANSWER KEY &amp; OMR</text>
+
+  <!-- OMR Questions Matrix -->
+  <!-- Q1 -->
+  <g transform="translate(18, 48)">
+    <text x="0" y="14" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="900" fill="#14140F">Q.01</text>
+    <circle cx="45" cy="10" r="8" fill="#14140F"/>
+    <text x="45" y="13" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="900" fill="#FFFFFF" text-anchor="middle">A</text>
+    <circle cx="70" cy="10" r="8" fill="none" stroke="#14140F" stroke-width="1.5"/>
+    <text x="70" y="13" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#14140F" text-anchor="middle">B</text>
+    <circle cx="95" cy="10" r="8" fill="none" stroke="#14140F" stroke-width="1.5"/>
+    <circle cx="120" cy="10" r="8" fill="none" stroke="#14140F" stroke-width="1.5"/>
+    <text x="160" y="13" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="900" fill="#00C853">CORRECT (+4)</text>
+  </g>
+
+  <!-- Q2 -->
+  <g transform="translate(18, 76)">
+    <text x="0" y="14" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="900" fill="#14140F">Q.02</text>
+    <circle cx="45" cy="10" r="8" fill="none" stroke="#14140F" stroke-width="1.5"/>
+    <circle cx="70" cy="10" r="8" fill="none" stroke="#14140F" stroke-width="1.5"/>
+    <circle cx="95" cy="10" r="8" fill="#14140F"/>
+    <text x="95" y="13" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="900" fill="#FFFFFF" text-anchor="middle">C</text>
+    <circle cx="120" cy="10" r="8" fill="none" stroke="#14140F" stroke-width="1.5"/>
+    <text x="160" y="13" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="900" fill="#00C853">CORRECT (+4)</text>
+  </g>
+
+  <!-- Q3 -->
+  <g transform="translate(18, 104)">
+    <text x="0" y="14" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="900" fill="#14140F">Q.03</text>
+    <circle cx="45" cy="10" r="8" fill="none" stroke="#14140F" stroke-width="1.5"/>
+    <circle cx="70" cy="10" r="8" fill="#FF4A22"/>
+    <text x="70" y="13" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="900" fill="#FFFFFF" text-anchor="middle">B</text>
+    <circle cx="95" cy="10" r="8" fill="none" stroke="#14140F" stroke-width="1.5"/>
+    <circle cx="120" cy="10" r="8" fill="none" stroke="#14140F" stroke-width="1.5"/>
+    <text x="160" y="13" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="900" fill="#FF4A22">CHALLENGE (-1)</text>
+  </g>
+
+  <!-- Footer Tag -->
+  <rect x="18" y="138" width="244" height="24" rx="2" fill="#EBEAE5" stroke="#14140F" stroke-width="1.5"/>
+  <text x="140" y="154" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="800" fill="#14140F" text-anchor="middle">SAMPLE RESPONSE KEY &#8226; DEMO</text>
+</svg>
